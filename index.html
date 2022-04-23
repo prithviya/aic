@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIC Raise</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.13.10/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.13.10/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.13.10/dist/js/uikit-icons.min.js"></script>
+</head>
+<body>
+    <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 600">
+        <nav class="uk-navbar-container" uk-navbar>
+            <div class="uk-navbar-left uk-margin-medium-left">        
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active">
+                        <a href="#">
+                            <img src="./img/logo.png" alt="" >
+                        </a>
+                    </li>
+                </ul>        
+            </div>        
+            <div class="uk-navbar-right uk-margin-small-right">
+                <ul class="uk-navbar-nav">
+                    <li>
+                        <a href="" class="uk-text-capitalize uk-text-bold uk-visible@m">
+                            home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="uk-text-capitalize uk-text-bold uk-visible@m">
+                            about us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="uk-text-capitalize uk-text-bold uk-visible@m">
+                            our intiatives
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="uk-text-capitalize uk-text-bold uk-visible@m">
+                            event
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="uk-text-capitalize uk-text-bold uk-visible@m">
+                            media
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="uk-text-capitalize uk-text-bold uk-visible@m">
+                            contact us
+                        </a>
+                    </li>
+                </ul>        
+            </div>        
+        </nav>
+    </div>
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: fade; autoplay: true;finite: true;">
+        <ul class="uk-slideshow-items">
+            <li>
+                <img src="img/banner-one.png" alt="" uk-cover>
+            </li>
+            <li>
+                <img src="img/banner-two.jpg" alt="" uk-cover>
+            </li>
+            <li>
+                <img src="img/banner-three.jpg" alt="" uk-cover>
+            </li>
+        </ul>    
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>    
+    </div>
+    <div class="uk-section">
+        <div class="uk-container">
+            <div class="uk-child-width-1-3@m uk-grid-medium uk-grid-match" uk-grid>
+                <div>
+                    <div class="uk-card">
+                        <div class="card-item">
+                            <div class="card-image">
+                                <img src="./img/demo.webp" alt="">
+                            </div>
+                            <div class="uk-card-body">  
+                                <h3 class="uk-card-title uk-text-bold custom-title-color">CoWork Hub</h3>
+                                <p class="card-intro">We provide splendid work stations and a conducive environment that aid startups in every aspect. Enjoy the way you work and experience a unique outcome of your input.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card">
+                        <div class="card-item">
+                            <div class="card-image">
+                                <img src="./img/demo.webp" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-text-bold uk-card-title custom-title-color">Team Up</h3>
+                                <p class="card-intro">AIC Raise assures your incredible journey of industry collaborations that suits your business and interest. Here you build strong business relations ensuing your future growth.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card">
+                        <div class="card-item">
+                            <div class="card-image">
+                                <img src="./img/demo.webp" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-text-bold uk-card-title custom-title-color">Partnership Pro</h3>
+                                <p class="card-intro">Unimaginable free credits from our enterprising and competitive partners, including Amazon Web Services, Zoho One, Digital Ocean, Hubspot, Razorpay and many more.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>            
+    </div>
+    <div class="uk-section uk-section-muted">
+        <div class="uk-container">
+            <div class="uk-child-width-1-3@m uk-grid-medium uk-grid-match uk-margin-medium-top" uk-grid>
+                <div class="pricing">
+                    <div class="plan">
+                        <h2>PER MONTH</h2>
+                        <div class="price">₹3999</div>
+                        <ul class="features">
+                          <li><i class="fa fa-check-circle"></i> 1 Hot Desk</li>
+                          <li><i class="fa fa-check-circle"></i> 24/7 Open Hours</li>
+                          <li><i class="fa fa-check-circle"></i> Conference Room</li>
+                          <li><i class="fa fa-check-circle"></i> Startup Tool Kit</li>
+                          <li><i class="fa fa-check-circle"></i> Free events for a year</li>
+                          <li><i class="fa fa-check-circle"></i> Community access</li>
+                          <li><i class="fa fa-check-circle"></i> Free WiFi</li>
+                        </ul>
+                        <button>Join With As</button>
+                    </div>
+                </div>
+                <div class="pricing">
+                    <div class="plan popular">
+                        <span>Most Popular</span>
+                        <h2>PER HOUR</h2>
+                        <div class="price">₹250</div>
+                        <ul class="features">
+                          <li><i class="fa fa-check-circle"></i> 1 Hot Desk</li>
+                          <li><i class="fa fa-check-circle"></i> Social Workspace</li>
+                          <li><i class="fa fa-check-circle"></i> Cafeteria</li>
+                          <li><i class="fa fa-check-circle"></i> Free events for a Month</li>
+                          <li><i class="fa fa-check-circle"></i> Unique Common Areas</li>
+                          <li><i class="fa fa-check-circle"></i> Snacks upon request</li>
+                          <li><i class="fa fa-check-circle"></i> CCTV Security</li>
+                        </ul>
+                        <button>Join With As</button>
+                    </div>
+                </div>
+                <div class="pricing">
+                    <div class="plan">
+                        <h2>PER DAY</h2>
+                        <div class="price">₹500</div>
+                        <ul class="features">
+                          <li><i class="fa fa-check-circle"></i> 1 Hot Desk</li>
+                          <li><i class="fa fa-check-circle"></i> Social Workspace</li>
+                          <li><i class="fa fa-check-circle"></i> 24/7 Open Hours</li>
+                          <li><i class="fa fa-check-circle"></i> Conference Room</li>
+                          <li><i class="fa fa-check-circle"></i> Snacks upon request</li>
+                          <li><i class="fa fa-check-circle"></i> Equipped Meal Area</li>
+                          <li><i class="fa fa-check-circle"></i> Free WiFi</li>
+                        </ul>
+                        <button>Contact Us</button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section">
+        <div class="container">
+            <div class="card">
+                <div class="ribbon">
+                    <div class="ribbon-text">Generic Heading</div>
+                </div>
+                <img src="https://picsum.photos/id/1050/1000" alt="img">
+                <div class="card-info">
+                    <p class="card-text">Comfortable, efficient, standing, lying down, in groups or on your own – how do you work the most efficient? Choose your place as a nomad and get going.</p>
+                </div>
+            </div>            
+            <div class="card">
+                <div class="ribbon">
+                    <div class="ribbon-text">Generic Heading</div>
+                </div>
+                <img src="https://picsum.photos/id/1050/1000" alt="img">
+                <div class="card-info">
+                    <p class="card-text">Our fully-furnished and equipped meeting rooms act ask catalysts towards your next big idea! Host your client meetings here or team catch-ups.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="ribbon">
+                    <div class="ribbon-text">Generic Heading</div>
+                </div>
+                <img src="https://picsum.photos/id/1050/1000" alt="img">
+                <div class="card-info">
+                    <p class="card-text">Our space will give your business the advantage of a prime address, flexible contract terms, enterprise-grade security and world-class design.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section uk-section-muted">
+        <div class="uk-container">
+            <div class="uk-grid-small uk-child-width-1-4@s uk-flex-center uk-text-center" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">Item 1</div>
+                </div>
+                <div class="uk-flex-last">
+                    <div class="uk-card uk-card-secondary uk-card-body">Item 2</div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">Item 3</div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">Item 4</div>
+                </div>
+                <div class="uk-flex-first">
+                    <div class="uk-card uk-card-primary uk-card-body">Item 5</div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">Item 6</div>
+                </div>
+            </div>            
+        </div>
+    </div>
+    <div class="uk-section">
+        <div class="uk-container">
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true; autoplay: true;">
+                <ul class="uk-slider-items uk-grid-match uk-grid">                   
+                    <li class="uk-width-1-3@s">
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-body">
+                                    <div class="blink uk-text-center uk-align-center"><span class="uk-text-bold uk-text-center">Dedicated Desk</span></div>
+                                    <h3 class="uk-card-title uk-text-bold uk-text-center uk-margin-remove">7000/-</h3>
+                                    <p class="uk-text-center uk-margin-remove">Per Month</p>
+                                    <ul class="uk-list">
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/desk.png"/></span>One Desk</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/24-7-open-sign-.png"/></span>24/7 Open Hours</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/meeting-room.png"/></span>Conference Room</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/new-company.png"/></span>Startup Tool Kit</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/2008.png"/></span>Free events for a year</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/user-credentials.png"/></span>Community access</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/wireless-cloud-access.png"/></span>Free WiFi</li>
+                                    </ul>
+                                </div>
+                                <img src="./img/wave.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="uk-width-1-3@s">
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-body">
+                                    <div class="blink uk-text-center uk-align-center"><span class="uk-text-bold uk-text-center">Co-Working</span></div>
+                                    <h3 class="uk-card-title uk-text-bold uk-text-center uk-margin-remove">4999/-</h3>
+                                    <p class="uk-text-center uk-margin-remove">Per Year</p>
+                                    <ul class="uk-list">
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/desk.png"/></span>1 Hot Desk</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/24-7-open-sign-.png"/></span>24/7 Open Hours</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/meeting-room.png"/></span>Conference Room</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/new-company.png"/></span>Startup Tool Kit</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/2008.png"/></span>Free events for a year</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/user-credentials.png"/></span>Community access</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/wireless-cloud-access.png"/></span>Free WiFi</li>
+                                    </ul>
+                                </div>
+                                <img src="./img/wave.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="uk-width-1-3@s">
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-body">
+                                    <div class="blink uk-text-center uk-align-center"><span class="uk-text-bold uk-text-center">Monthly</span></div>
+                                    <h3 class="uk-card-title uk-text-bold uk-text-center uk-margin-remove">3999/-</h3>
+                                    <p class="uk-text-center uk-margin-remove">Per Month</p>
+                                    <ul class="uk-list">
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/desk.png"/></span>1 Hot Desk</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/24-7-open-sign-.png"/></span>24/7 Open Hours</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/meeting-room.png"/></span>Conference Room</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/new-company.png"/></span>Startup Tool Kit</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/2008.png"/></span>Free events for a year</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/user-credentials.png"/></span>Community access</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/wireless-cloud-access.png"/></span>Free WiFi</li>
+                                    </ul>
+                                </div>
+                                <img src="./img/wave.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="uk-width-1-3@s">
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-body">
+                                    <div class="blink uk-text-center uk-align-center"><span class="uk-text-bold uk-text-center">Weekly</span></div>
+                                    <h3 class="uk-card-title uk-text-bold uk-text-center uk-margin-remove">2000/-</h3>
+                                    <p class="uk-text-center uk-margin-remove">Per Year</p>
+                                    <ul class="uk-list">
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/desk.png"/></span>1 Hot Desk</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/24-7-open-sign-.png"/></span>24/7 Open Hours</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/meeting-room.png"/></span>Conference Room</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/new-company.png"/></span>Startup Tool Kit</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/2008.png"/></span>Free events for a year</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/user-credentials.png"/></span>Community access</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/wireless-cloud-access.png"/></span>Free WiFi</li>
+                                    </ul>
+                                </div>
+                                <img src="./img/wave.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="uk-width-1-3@s">
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-body">
+                                    <div class="blink uk-text-center uk-align-center"><span class="uk-text-bold uk-text-center">Daily</span></div>
+                                    <h3 class="uk-card-title uk-text-bold uk-text-center uk-margin-remove">500/-</h3>
+                                    <p class="uk-text-center uk-margin-remove">Per Day</p>
+                                    <ul class="uk-list">
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/desk.png"/></span>1 Hot Desk</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/24-7-open-sign-.png"/></span>24/7 Open Hours</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/meeting-room.png"/></span>Conference Room</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/new-company.png"/></span>Startup Tool Kit</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/2008.png"/></span>Free events for a year</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/user-credentials.png"/></span>Community access</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/wireless-cloud-access.png"/></span>Free WiFi</li>
+                                    </ul>
+                                </div>
+                                <img src="./img/wave.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="uk-width-1-3@s">
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-body">
+                                    <div class="blink uk-text-center uk-align-center"><span class="uk-text-bold uk-text-center">Hourly</span></div>
+                                    <h3 class="uk-card-title uk-text-bold uk-text-center uk-margin-remove">250/-</h3>
+                                    <p class="uk-text-center uk-margin-remove">Per Hourly</p>
+                                    <ul class="uk-list">
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/desk.png"/></span>1 Hot Desk</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/24-7-open-sign-.png"/></span>24/7 Open Hours</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/meeting-room.png"/></span>Conference Room</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/new-company.png"/></span>Startup Tool Kit</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/2008.png"/></span>Free events for a year</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/user-credentials.png"/></span>Community access</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/wireless-cloud-access.png"/></span>Free WiFi</li>
+                                    </ul>
+                                </div>
+                                <img src="./img/wave.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="uk-width-1-3@s">
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-body">
+                                    <div class="blink uk-text-center uk-align-center"><span class="uk-text-bold uk-text-center">Virtual Space</span></div>
+                                    <h3 class="uk-card-title uk-text-bold uk-text-center uk-margin-remove">15,000/-</h3>
+                                    <p class="uk-text-center uk-margin-remove">Per Year</p>
+                                    <ul class="uk-list">
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/worldwide-location.png"/></span>Branch Address</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/sign-mail.png"/></span>Mailing Address</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/package.png"/></span>Package Handling</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/reddit-inbox.png"/></span>Message handling</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/ask-question.png"/></span>Inquiry Handling</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/xmpp.png"/></span>Connect Online</li>
+                                        <li><span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/28/000000/discount-finder.png"/></span>Reduce Overheads</li>
+                                    </ul>
+                                </div>
+                                <img src="./img/wave.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+            
+            </div>
+            <div class="uk-margin-top uk-align-center uk-text-center">
+                <button class="button">Terms & Conditions</button>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section uk-section-muted uk-padding-remove-bottom">
+        <div class="uk-container">
+            <div class="uk-width-1-1@s">
+                <div class="uk-child-width-1-4@m uk-grid-small uk-grid-match" uk-grid>
+                    <div>
+                        <div class="uk-card">
+                            <img src="./img/AIC RAISE_Logo_Vertical (1).png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card">
+                            <h3 class="uk-text-bold">Backed By:</h3>
+                            <img src="./img/NITI AIM Logo_blk.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card">
+                            <h3 class="uk-text-bold">Now:</h3>
+                            <img src="./img/SDSN-MEMBER-logo.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card">
+                            <h3 class="uk-text-bold">Proudly:</h3>
+                            <p>Lorem ipsum dolor sit adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-grid-match" uk-grid>
+                <div class="uk-width-1-5@s">
+                    <div class="uk-card">
+                        <h3 class="uk-card-title uk-text-bold">Mission</h3>
+                        <ul class="uk-list uk-margin-small-left">
+                            <li>
+                                <a href="" class="uk-text-emphasis">About Us</a>
+                            </li>
+                            <li>
+                                <a href="" class="uk-text-emphasis">SDG School</a>
+                            </li>
+                            <li>
+                                <a href="" class="uk-text-emphasis">Get Involved</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>       
+                <div class="uk-width-1-5@s">
+                    <div class="uk-card">
+                        <h3 class="uk-card-title uk-text-bold">Ecosystem</h3>
+                        <ul class="uk-list uk-margin-small-left">
+                            <li>
+                                <a href="" class="uk-text-emphasis">Mentors</a>
+                            </li>
+                            <li>
+                                <a href="" class="uk-text-emphasis">Partners</a>
+                            </li>
+                            <li>
+                                <a href="" class="uk-text-emphasis">startups</a>
+                            </li>
+                            <li>
+                                <a href="" class="uk-text-emphasis">Community</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>         
+                <div class="uk-width-1-5@s">
+                    <div class="uk-card">
+                        <h3 class="uk-text-bold">Resources</h3>
+                        <ul class="uk-list uk-margin-small-left">
+                            <li>
+                                <a href="" class="uk-text-emphasis">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="" class="uk-text-emphasis">Contact</a>
+                            </li>
+                            <li>
+                                <a href="" class="uk-text-emphasis">Startups KIT</a>
+                            </li>
+                            <li>
+                                <a href="" class="uk-text-emphasis">Coworking Space</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="uk-width-expand@s">
+                    <div class="uk-card">
+                        <h3 class="uk-text-bold">Contact</h3>
+                        <ul class="uk-list uk-margin-small-left">
+                            <li>
+                                <div class="uk-grid-match" uk-grid>
+                                    <div class="uk-width-1-4">
+                                        <div class="uk-card" style="display: flex; flex-direction: row;justify-content: center;justify-items: center;">
+                                            <span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/24/000000/place-marker.png"/></span>
+                                        </div>
+                                    </div>
+                                    <div class="uk-width-3-4 uk-padding-remove">
+                                        <div class="uk-card">
+                                            AIC Raise Business Incubator, Rathinam Technical Campus,
+                                            Rathinam Techzone,
+                                            Pollachi Main Road, Eachanari
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="tel:80568 03999">
+                                    <div class="uk-grid-match" uk-grid>
+                                        <div class="uk-width-1-4">
+                                            <div class="uk-card" style="display: flex; flex-direction: row;justify-content: center;justify-items: center;">
+                                                <span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/24/000000/call-list.png"/></span>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-3-4 uk-padding-remove">
+                                            <div class="uk-card">
+                                                +91 80568 03999
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:hello@aicraise.com">
+                                    <div class="uk-grid-match" uk-grid>
+                                        <div class="uk-width-1-4">
+                                            <div class="uk-card" style="display: flex; flex-direction: row;justify-content: center;justify-items: center;">
+                                                <span class="uk-margin-small-right"><img src="https://img.icons8.com/material-two-tone/24/000000/search-in-mail.png"/></span>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-3-4 uk-padding-remove">
+                                            <div class="uk-card">
+                                                hello@aicraise.com
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="uk-margin-remove">
+        <div>
+            <p class="uk-text-meta uk-text-emphasis uk-text-center uk-margin-small-top">© 2022 AIC RAISE • Powered by WPKoi</p>
+        </div>
+    </div>
+
+</body>
+</html>
