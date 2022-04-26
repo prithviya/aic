@@ -204,7 +204,7 @@ main {
   width:100%;
   height:auto;
   margin: 4% auto;
-  /* box-shadow:-3px 5px 15px #000; */
+  box-shadow:-3px 5px 15px #000;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -217,37 +217,10 @@ main {
   padding:0px;
 }
 
-.section-padding {
-  position: relative;
-  height: 100vh;
-}
-
-.section-bg {
-  background-image: url(./img/business.png);
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 59%;
-  background-size: cover;
-  /* background-repeat: no-repeat; */
-  background-position: center;
-}
-
-.section-bg:after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  content: "";
-  background: var(--Black);
-  opacity: 0.9;
-}
-
+/* contact */
 .contact-form {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 20px;
+  /* padding-bottom: 100px; */ */
 }
 
 .contact-form input,
@@ -273,31 +246,9 @@ button:focus {
   font-weight: bold;
 }
 
-.appointment-text {
-  padding-left: 100px;
-  padding-top: 140px;
-}
-
-ul li i {
-  padding-right: 10px;
-  color: var(--Black);
-}
-
-.boxed-btn {
-  padding: 10px 30px;
-  background: var(--Black);
-  color: white;
-  font-weight: bold;
-  border-radius: 5px;
-}
-
-.boxed-btn:hover {
-  color: #000;
-  text-decoration: none;
-}
-
 h2.absolute-text {
-  color: #000;
+  color: var(--blue);
+  font-weight: 600;
   position: absolute;
   top: 29%;
   left: -60px;
@@ -306,49 +257,15 @@ h2.absolute-text {
   letter-spacing: 2px;
 
 }
-
-ul {
-  margin: 40px 0;
-}
-
-ul li {
-  margin: 15px 0px;
-}
-
-@media screen and (max-width: 767px) {
-  .section-bg {
-      width: 100%;
-  }
-
-  .appointment-text {
-      padding-left: 0px;
-      padding-top: 140px;
-  }
-
+@media screen and (max-width: 767px) 
+{
   h2.absolute-text {
-      color: #000;
-      position: absolute;
-      top: 32px;
-      left: 24px;
-      writing-mode: inherit;
-      transform: none;
-      letter-spacing: 2px;
-  }
-
+    color: var(--blue);
+    position: absolute;
+    top: -5%;
+    left: 24px;
+    writing-mode: inherit;
+    transform: none;
+    letter-spacing: 2px;
 }
-@media screen and (max-width: 1024px) and (min-width: 768px){
-  h2.absolute-text {
-      color: var(--Black);
-      position: absolute;
-      top: 32px;
-      left: 24px;
-      writing-mode: inherit;
-      transform: none;
-      letter-spacing: 2px;
-  }
-  .appointment-text {
-      padding-left: 20px;
-      padding-top: 140px;
-  }
-
 }
