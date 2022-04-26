@@ -246,7 +246,7 @@ button:focus {
 }
 
 h2.absolute-text {
-  color: var(--blue);
+  color: var(--white);
   font-weight: 600;
   position: absolute;
   top: 29%;
@@ -259,7 +259,7 @@ h2.absolute-text {
 @media screen and (max-width: 767px) 
 {
   h2.absolute-text {
-    color: var(--blue);
+    color: var(--white);
     position: absolute;
     top: -5%;
     left: 24px;
