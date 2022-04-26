@@ -268,3 +268,128 @@ h2.absolute-text {
     letter-spacing: 2px;
 }
 }
+/* price 7 card */
+.pricing-table{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: min(1600px, 100%);
+  margin: auto;
+}
+
+.pricing-card{
+  flex: 1;
+  max-width: 360px;
+  background-color: var(--Black);
+  margin: 20px 10px;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  color: #2d2d2d;
+  transition: .3s linear;
+}
+
+.pricing-card-header{
+  background-color: var(--blue);
+  display: inline-block;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 0 0 20px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: .4s linear;
+}
+
+.pricing-card:hover .pricing-card-header{
+  box-shadow: 0 0 0 19em var(--blue);
+}
+
+.price{
+  font-size: 70px;
+  color: var(--blue);
+  margin: 0px 0;
+  transition: .2s linear;
+}
+
+.price sup, .price span{
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.pricing-card:hover ,.pricing-card:hover .price{
+  color: #fff;
+}
+
+.pricing-card li{
+  font-size: 16px;
+  padding: 1px 0;
+  list-style: none;
+  text-transform: uppercase;
+}
+@media screen and (max-width:1100px){
+  .pricing-card{
+    flex: 50%;
+  }
+}
+/* banner section */
+.header__section {
+  position: absolute;
+  width: 100%;
+}
+.logo__section {
+  margin: 0px 20px;
+}
+.menu__sec {
+  display: flex;
+  height: 80px;
+  align-items: center;
+}
+.conatacts__section {
+  display: flex;
+  flex: 1;
+  justify-content: right;
+  margin: 4px 15px;
+}
+.conatacts__section a {
+  padding: 0 10px;
+}
+.conatacts__section a.contact__email:before {
+  content: "\f0e0";
+  font-family: "FontAwesome";
+  margin: 5px;
+}
+.conatacts__section a.contact__phone:before {
+  content: "\f095";
+  font-family: "FontAwesome";
+  margin: 5px;
+}
+.social__section {
+  display: flex;
+  margin: 4px 15px;
+}
+.social__section li {
+  list-style-type: none;
+  padding: 0 7px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  background-color: var(--blue);
+  margin: 5px;
+  border-radius: 50%;
+  justify-content: center;
+  cursor: pointer;
+}
+@media only screen and (max-width: 800px) {
+  .menu__sec {
+    flex-direction: column;
+    height: auto;
+  }
+  .conatacts__section {
+    flex-direction: column;
+  }
+  .banner__text h1 {
+    font-size: 2.5rem;
+  }
+}
