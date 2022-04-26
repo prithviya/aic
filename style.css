@@ -142,7 +142,6 @@ main {
   display: flex;
   flex-direction: column; 
   justify-content: center;
-  padding: 4rem;
   text-align: justify;
 }
 .custom-img-center
