@@ -96,6 +96,7 @@ main {
 #custom-title-h1 {
   align-items: center;
   text-align: center;
+  color: var(--white);
 }
 
 .header-basic,
@@ -468,6 +469,8 @@ h2.absolute-text {
   padding:0px 0px 0px 0px;
   width: 250px;
   height:40px;
+  font-weight: 900;
+  font-size: larger;
   background:var(--blue);
   border-radius: 0px 0px 5px 5px;
   -moz-transform:rotate(90deg);
