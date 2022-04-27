@@ -348,6 +348,13 @@ h2.absolute-text {
     font-size: 2.5rem;
   }
 }
+.custom-contact-align
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 /* price card 7 */
 
 /* price 7 card */
