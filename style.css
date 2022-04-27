@@ -160,7 +160,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 4rem;
+  /* padding: 5rem; */
   text-align: justify;
 }
 .custom-img-center {
